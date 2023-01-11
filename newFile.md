@@ -8,10 +8,10 @@
 
 > this is a blockquote
 
-*this
-*is
-*a
-*list
+* this
+* is
+* a
+* list
 
 1. another
 2. list
