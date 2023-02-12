@@ -26,3 +26,11 @@ Here I use `-size` to look at files greater in size than 100kB. This is useful t
 ![size2](size2.png)  
 This example uses `-size` to look at files both greater than 100kB and less than 110kB. Combining multiple commands is useful to find files of a very specific size.
 
+### -mtime
+
+![mtime1](mtime1.png)  
+This example uses `-mtime` to look at files that were modified 5 days or longer ago. This is useful to look at files that are espcially new or old. The entire output could not fit into the screenshot.
+
+![mtime2](mtime2.png)
+This example uses `-mtime` to look at files that were modified between 5 days and 10 days ago. This is useful if you want to find all the files modified on a specific date or range of dates. Since everything in this directory was modified at the same time, this command's output is nothing on my computer.
+
