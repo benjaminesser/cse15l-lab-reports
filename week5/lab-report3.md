@@ -20,7 +20,7 @@ In this example, I use `-type f` to display the path of every file in the non-fi
 ![type2](type2.png)  
 This example also uses the `-type f` command but it combines it with the -name command. This is useful for displaying the path of a specific file for a quick copy/paste.
 
-### -size
+### -size  
 (found at [this website](https://www.tecmint.com/35-practical-examples-of-linux-find-command/))
 
 ![size1](size1.png)  
@@ -29,7 +29,7 @@ Here I use `-size` to look at files greater in size than 100kB. This is useful t
 ![size2](size2.png)  
 This example uses `-size` to look at files both greater than 100kB and less than 110kB. Combining multiple commands is useful to find files of a very specific size.
 
-### -mtime
+### -mtime  
 (found at [this website](https://geekflare.com/linux-find-commands/))
 
 ![mtime1](mtime1.png)  
