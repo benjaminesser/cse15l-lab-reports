@@ -13,7 +13,6 @@ Similar to the example above, I use iname to find a a file that contains both be
 ### -type
 
 ![type1](type1.png)
-
 In this example, I use -type f to display the path of every file in the non-fiction folder. This is useful if you need to copy paste a path.
 
 ![type2](type2.png)
