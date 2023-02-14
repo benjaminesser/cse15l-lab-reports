@@ -95,4 +95,4 @@ In the reverseInPlace method a copy of the array is made so it not being changed
 
 ## Part 3
 
-I learned in lab that URL's have paths just like files on my local computer do. This has transformed my thinking about websites from something that I don't understand up in the cloud to file systems that sit on a server somewhere.
+I learned in lab that URLs have paths just like files on my local computer do. This has transformed my thinking about websites from something that I don't understand up in the cloud to file systems that sit on a server somewhere.
