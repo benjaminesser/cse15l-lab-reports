@@ -9,7 +9,8 @@ One method that is called is handleRequest with input of http://localhost:4010/a
 ## Part 2
 
 Failure-inducing input:
-`@Test
+```
+@Test
  public void testReversedAgain() {
    int[] input1 = {1,2,3};
    assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
@@ -22,7 +23,7 @@ Failure-inducing input:
    ArrayExamples.reverseInPlace(input1);
    assertArrayEquals(new int[]{3,2,1}, input1);
  }
-`
+```
 
 
 ## Part 3
