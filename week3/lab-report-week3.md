@@ -1,10 +1,10 @@
 ## Part 1
 
 ![addMessage1](addMessage1.png)  
-With this input, the main method in StringServer.java is called with args as a String array that just contains 4010. From this request, the port field is set to the integer 4010. The start method in Server.java is also called with the port as 4010 and the handler as StringHandler(), a class that contains the handleRequest method. The server field is set to a simple HTTP server, created using the port. ServerHttpHandler is also called, which passes in the StringHandler() as its handler. From here handleRequest is called.
+One method that is called is handleRequest with input of http://localhost:4010/add-message?s=Hello. Here the path field is set to "/add-message" and query field is set to "s=Hello". The index field is set to 1 and message field is set to "Hello". The messages field goes from empty to containing "Hello". The buildResponse() method is also called. Here the response field is set to an empty String and then "Hello" is added to it.
 
 ![addMessage2](addMessage2.png)
-
+One method that is called is handleRequest with input of http://localhost:4010/add-message?s=How%20are%20you. Here the path field is set to "/add-message" and query is set to "s=How%20are%20you". The index field is set to 1 and message field is set to "How are you". The messages field goes from "Hello" to "Hello" and "How are you". The buildResponse method is also called. The response field is set to an empty string and then both "Hello" and "How are you" are added to it.
 
 ## Part 2
 
