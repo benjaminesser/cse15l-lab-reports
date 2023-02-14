@@ -91,4 +91,6 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 
+In the reverseInPlace method a copy of the array is made so it not being changed as it is being iterated on. In the reversed method the newArray is the one that we are now setting values for and it is returned at the end of the method.
+
 ## Part 3
