@@ -28,7 +28,7 @@ Failure-inducing input:
 Input that doesn't induce failure:
 
 Symptom:
-
+![symptom](symptom.png)
 
 
 
