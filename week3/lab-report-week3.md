@@ -32,6 +32,14 @@ Input that doesn't induce failure:
    int[] input1 = {1};
    assertArrayEquals(new int[]{1}, ArrayExamples.reversed(input1));
  }
+
+
+ @Test
+ public void testReverseInPlaceAgain() {
+   int[] input1 = {1};
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{1}, input1);
+ }
 ```
 
 
