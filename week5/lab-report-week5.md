@@ -13,7 +13,8 @@ In this example, I use `-iname` to to find a txt file that contains "algarve". E
 Similar to the example above, I use iname to find a file that contains both bermud and history. Again, `-iname` allows the real file to show up, even though it is capitalized. I also don't need to know that there is a `-` in the name because I used `-iname` and connected the characters that I knew were in the name together by a `*`. This is useful to find a file that you know multiple parts of but not the whole name.
 
 ### -type  
-(found at [this website](https://www.redhat.com/sysadmin/linux-find-command))
+(found at [this website](https://www.redhat.com/sysadmin/linux-find-command))  
+`-type f` shows the full path of the all of the files that it finds.
 
 ![type1](type1.png)  
 In this example, I use `-type f` to display the path of every file in the non-fiction folder. This is useful if you need to copy paste a path.
