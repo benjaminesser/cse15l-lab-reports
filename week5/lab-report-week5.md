@@ -40,5 +40,5 @@ This example uses `-size` to look at files both greater than 100kB and less than
 This example uses `-mtime` to look at files that were modified 5 days or longer ago. The number following `-mtime` indicates how many days ago you want to look at and "+" or "-" indicates more or less than that number of days. This is useful to look at files that are espcially new or old. The entire output could not fit into the screenshot.
 
 ![mtime2](mtime2.png)  
-This example uses `-mtime` to look at files that were modified between 5 days and 10 days ago. This is useful if you want to find all the files modified on a specific date or range of dates. Since everything in this directory was modified at the same time, this command's output is nothing on my computer.
+This example uses `-mtime` to look at files that were modified between 5 days and 10 days ago. I use the command twice to indicate the lower and upper bound. This is useful if you want to find all the files modified on a specific date or range of dates. Since everything in this directory was modified at the same time, this command's output is nothing on my computer.
 
