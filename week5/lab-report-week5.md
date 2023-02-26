@@ -30,7 +30,7 @@ This example also uses the `-type f` command but it combines it with the `-name`
 Here I use `-size` to look at files greater in size than 100kB. By using a "+" before "100kB" it only displays files that are greater than 100kB in size. This is useful to find files that are especially large or small.
 
 ![size2](size2.png)  
-This example uses `-size` to look at files both greater than 100kB and less than 110kB. Combining multiple commands is useful to find files of a very specific size.
+This example uses `-size` to look at files both greater than 100kB and less than 110kB. I use the command twice to set the lower and upper bound on the size. Combining multiple commands is useful to find files of a very specific size.
 
 ### -mtime  
 (found at [this website](https://geekflare.com/linux-find-commands/))
