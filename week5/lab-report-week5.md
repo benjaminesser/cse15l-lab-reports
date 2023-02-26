@@ -3,7 +3,8 @@
 I chose to look at the `find` command.
 
 ### -iname  
-(found at [this website](https://www.redhat.com/sysadmin/linux-find-command))
+(found at [this website](https://www.redhat.com/sysadmin/linux-find-command))  
+`-iname` searches for a file by approximate name, meaning that it is not case sensitive.
 
 ![iname1](iname1.png)  
 In this example, I use `-iname` to to find a txt file that contains algarve. This is useful because I don't have to know the exact file name or capitalization.
