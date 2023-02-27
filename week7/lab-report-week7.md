@@ -12,4 +12,4 @@ Here I type out "git clone " and then copy the ssh key from the repository on Gi
 
 Here I type "cd l" and then tab which autocompletes to "cd lab7/". This command navigates me to the lab7/ directory. Then I copy "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java" from the CS15L website and paste it into the terminal. This command compiles all of the java files in lab7/, which is the directory that I am now in. Next I copy "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore" from the CS15L website and patste it into the terminal. Then I add ListExamplesTests after this (using `<tab>` to help complete the commmand). This command runs the class file called "ListExamplesTests" which contains the tests that fail.
   
-7. Keys pressed: `nano +43 L``<tab>``.java``<enter>`, `<up><up><up><up><up><up><up><up><up><up><up><up><delete>``2``<Ctr-o><enter><Ctrl-x>`
+7. Keys pressed: `nano +43 L` `<tab>` `.java` `<enter>`, `<up><up><up><up><up><up><up><up><up><up><up><up><delete>` `2` `<Ctr-o><enter><Ctrl-x>`
