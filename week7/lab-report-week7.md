@@ -19,3 +19,7 @@ Here I use tab to complete the command "nano +43 ListExamples.java". This comman
 8. Keys pressed: `<up><up><up><enter>`, `<up><up><up><enter>`
   
 The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 up in terminal history so I pressed the up arrow 3 times to find it and comiple all the java files in the directory. Then the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 up in terminal history so I pressed the up arrow 3 times to access it and run the passing tests.
+  
+9. Keys pressed: `git add L` `<tab>` `.java` `<enter>`, `git commit -m "updated"` `<enter>`, `git push` `<enter>`
+  
+I used tab to autocomplete the command `git add ListExamples.java` which adds the updated java file to the next commit. `git commit -m "updated"` commits ListExamples.java with the message "updated". `git push` finally pushes the changes to my forked repository.
