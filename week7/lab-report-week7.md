@@ -16,4 +16,6 @@ Here I type "cd l" and then tab which autocompletes to "cd lab7/". This command 
 
 Here I use tab to complete the command "nano +43 ListExamples.java". This command opens up ListExamples.java to the 43rd line using the nano editor. From there I press the right arrow 12 times, backspace, and "2" to change index1 to index2. Then I save the file with `<Ctrl-o>` and exit the nano editor via `<Ctrl-x>`. 
   
-8. Keys pressed: 
+8. Keys pressed: `<up><up><up><enter>`, `<up><up><up><enter>`
+  
+The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 3 up in terminal history so I pressed the up arrow 3 times to find it and comiple all the java files in the directory. Then the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was 3 up in terminal history so I pressed the up arrow 3 times to access it and run the passing tests.
