@@ -1,6 +1,10 @@
 # Lab Report 4  
 
-4. Keys pressed: `ssh cs15lwi23akb@ieng6.ucsd.edu` `enter`
+### Step 4
+
+![step4](step4.png)
+
+Keys pressed: `ssh cs15lwi23akb@ieng6.ucsd.edu` `enter`
 
 This command uses my specific account to log me into the ieng6 remote server.
 
